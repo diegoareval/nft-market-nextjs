@@ -13,3 +13,25 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+to generate nodes: 
+```shel
+npx hardhat node
+```
+
+
+to deploy a localnetwork:
+```shel
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+to deploy a mumbai network:
+```shel
+npx hardhat run scripts/deploy.js --network mumbai
+```
+
+
+to deploy a main matic network:
+```shel
+npx hardhat run scripts/deploy.js --network mainnet
+```
